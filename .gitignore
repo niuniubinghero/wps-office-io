@@ -1,0 +1,24 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg-info
+build/
+dist/
+.venv/
+venv/
+env/
+
+.env
+*.bak
+*.log
+# WPS 写操作默认生成的备份
+*.doc.bak
+*.docx.bak
+*.xls.bak
+*.xlsx.bak
+
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp

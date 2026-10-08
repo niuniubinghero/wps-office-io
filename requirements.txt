@@ -1,0 +1,7 @@
+# wps-office-io 运行时依赖
+# MCP Server 入口所需
+mcp>=1.0,<2.0
+
+# CLI 内核通过 WPS COM 读写 Office，需要 pywin32
+# Windows 专属依赖
+pywin32>=306 ; sys_platform == "win32"
